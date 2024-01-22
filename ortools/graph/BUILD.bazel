@@ -378,6 +378,7 @@ cc_library(
     ],
     deps = [
         "//ortools/base",
+	"@com_google_absl//absl/log:check",
     ],
 )
 
