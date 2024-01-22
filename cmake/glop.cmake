@@ -89,8 +89,6 @@ target_sources(glop PRIVATE
   ortools/base/sysinfo.h
   ortools/base/version.cc
   ortools/base/version.h
-  ortools/base/vlog_is_on.cc
-  ortools/base/vlog_is_on.h
   ortools/glop/basis_representation.cc
   ortools/glop/basis_representation.h
   ortools/glop/dual_edge_norms.cc
@@ -308,7 +306,6 @@ install(FILES
   ortools/base/recordio.h
   ortools/base/sysinfo.h
   ortools/base/timer.h
-  ortools/base/vlog_is_on.h
   DESTINATION ${CMAKE_INSTALL_INCLUDEDIR}/ortools/base
   COMPONENT Devel)
 install(FILES
