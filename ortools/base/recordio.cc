@@ -18,6 +18,7 @@
 #include <memory>
 #include <string>
 
+#include "absl/log/check.h"
 #include "ortools/base/logging.h"
 
 namespace recordio {
