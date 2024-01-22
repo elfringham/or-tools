@@ -16,6 +16,7 @@
 #include <cmath>
 #include <limits>
 
+#include "absl/log/check.h"
 #include "ortools/base/logging.h"
 
 namespace operations_research {
