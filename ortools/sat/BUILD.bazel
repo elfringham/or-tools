@@ -102,6 +102,7 @@ cc_library(
         "//ortools/base",
         "//ortools/base:typeid",
         "@com_google_absl//absl/container:flat_hash_map",
+	"@com_google_absl//absl/log:check",
     ],
 )
 
