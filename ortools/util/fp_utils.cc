@@ -24,6 +24,7 @@
 
 #include "absl/base/casts.h"
 #include "absl/base/internal/endian.h"
+#include "absl/log/check.h"
 #include "ortools/base/integral_types.h"
 #include "ortools/base/logging.h"
 #include "ortools/util/bitset.h"

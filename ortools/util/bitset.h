@@ -22,6 +22,7 @@
 #include <string>
 #include <vector>
 
+#include "absl/log/check.h"
 #include "ortools/base/integral_types.h"
 #include "ortools/base/logging.h"
 #include "ortools/base/macros.h"
