@@ -28,6 +28,7 @@
 #include "ortools/base/helpers.h"
 #endif  // !defined(__PORTABLE_PLATFORM__)
 #include "absl/container/flat_hash_set.h"
+#include "absl/log/check.h"
 #include "absl/strings/match.h"
 #include "absl/strings/string_view.h"
 #include "ortools/base/hash.h"
