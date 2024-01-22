@@ -14,10 +14,6 @@
 #ifndef OR_TOOLS_BASE_LOGGING_H_
 #define OR_TOOLS_BASE_LOGGING_H_
 
-#define ABSL_LOG_INTERNAL_CONDITION_DFATAL ABSL_LOG_INTERNAL_CONDITION_ERROR
-#define kLogDebugFatal LogSeverity::kError
-#define kDebugFatal kError
-
 #include "absl/base/log_severity.h"
 #include "absl/flags/declare.h"
 #include "absl/log/check.h"
@@ -29,7 +25,6 @@
 #include "absl/strings/string_view.h"
 #include "google/protobuf/message.h"
 #include "ortools/base/macros.h"
-#include "ortools/base/vlog.h"
 
 // Compatibility layer for glog/previous logging code.
 ABSL_DECLARE_FLAG(bool, logtostderr);
