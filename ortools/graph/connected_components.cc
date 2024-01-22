@@ -33,6 +33,7 @@
 #include <numeric>
 #include <vector>
 
+#include "absl/log/check.h"
 #include "ortools/base/stl_util.h"
 
 void DenseConnectedComponentsFinder::SetNumberOfNodes(int num_nodes) {
