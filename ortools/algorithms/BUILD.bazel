@@ -103,6 +103,7 @@ cc_library(
     deps = [
         "//ortools/base",
         "//ortools/base:murmur",
+	"@com_google_absl//absl/log:check",
         "@com_google_absl//absl/strings",
         "@com_google_absl//absl/strings:str_format",
         "@com_google_absl//absl/types:span",
@@ -115,6 +116,7 @@ cc_library(
     hdrs = ["sparse_permutation.h"],
     deps = [
         "//ortools/base",
+	"@com_google_absl//absl/log:check",
         "@com_google_absl//absl/strings",
     ],
 )
