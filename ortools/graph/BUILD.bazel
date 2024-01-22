@@ -37,6 +37,7 @@ cc_library(
         ":iterators",
         "//ortools/base",
         "@com_google_absl//absl/debugging:leak_check",
+	"@com_google_absl//absl/log:check",
         "@com_google_absl//absl/types:span",
     ],
 )
@@ -60,6 +61,7 @@ cc_library(
         "//ortools/base:hash",
         "//ortools/base:map_util",
         "@com_google_absl//absl/container:inlined_vector",
+	"@com_google_absl//absl/log:check",
     ],
 )
 

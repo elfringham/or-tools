@@ -167,6 +167,7 @@
 
 #include "absl/base/port.h"
 #include "absl/debugging/leak_check.h"
+#include "absl/log/check.h"
 #include "absl/types/span.h"
 #include "ortools/base/integral_types.h"
 #include "ortools/base/logging.h"
