@@ -18,6 +18,7 @@
 #include <stdexcept>
 #include <string>
 
+#include "absl/log/check.h"
 #include "ortools/base/logging.h"
 
 #if defined(_MSC_VER)
